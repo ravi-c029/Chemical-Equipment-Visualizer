@@ -95,3 +95,15 @@ class PDFReportView(BaseAuthView):
             
         except UploadedDataset.DoesNotExist:
             return Response({"error": "Dataset not found"}, status=status.HTTP_404_NOT_FOUND)
+        
+from django.http import HttpResponse
+from django.contrib.auth.models import User
+
+def create_admin_user(request):
+    # Check if admin already exists
+    if User.objects.filter(username='admin').exists():
+        return HttpResponse("Admin user already exists! You can login now.")
+    
+    # Create the admin user
+    User.objects.create_superuser('admin', 'admin@example.com', 'password123')
+    return HttpResponse("SUCCESS: Admin user 'admin' created with password 'password123'.")
