@@ -1,0 +1,22 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+db.sqlite3
+.DS_Store
+
+# Media (Uploads)
+backend/media/csvs/
+backend/media/reports/
+
+# React / Node
+frontend-web/node_modules/
+frontend-web/build/
+.env
+
+# Desktop
+frontend-desktop/__pycache__/
+frontend-desktop/build/
+frontend-desktop/dist/
