@@ -124,10 +124,11 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # CORS Configuration (Allow React Frontend)
-CORS_ALLOWED_ORIGINS = [
-    "https://chemical-equipment-visualizer-seven.vercel.app/",
-    "http://localhost:3000",
-]
+CORS_ALLOW_ALL_ORIGINS = True
+# [
+#     "https://chemical-equipment-visualizer-seven.vercel.app/",
+#     "http://localhost:3000",
+# ]
 
 # Media Files Configuration (For CSV Uploads)
 import os
