@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ['chemical-equipment-visualizer-wptm.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
+    'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Third-party apps
     'rest_framework',
-    'corsheaders',
+    
 
     # Local apps
     'core',
