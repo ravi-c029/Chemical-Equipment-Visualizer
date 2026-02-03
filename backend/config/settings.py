@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&0rxln&g=%vb5mq0o04d4hfce$se#v1=hszdv%@*fggj+!d2wy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['chemical-equipment-visualizer-wptm.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['chemical-equipment-visualizer-wptm.onrender.com']
 
 
 # Application definition
