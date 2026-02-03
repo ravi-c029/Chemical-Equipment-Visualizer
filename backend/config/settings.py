@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&0rxln&g=%vb5mq0o04d4hfce$se#v1=hszdv%@*fggj+!d2wy
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['chemical-equipment-visualizer-wptm.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -125,6 +125,7 @@ STATIC_URL = 'static/'
 
 # CORS Configuration (Allow React Frontend)
 CORS_ALLOWED_ORIGINS = [
+    "https://chemical-equipment-visualizer-seven.vercel.app/",
     "http://localhost:3000",
 ]
 
