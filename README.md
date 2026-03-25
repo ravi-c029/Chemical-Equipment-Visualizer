@@ -480,7 +480,7 @@ PHASE 3 — ADVANCED            ░░░░░░░░░░░░    0%  📋
 **Ravi Kumar Keshari**
 *CS & Data Analytics @ IIT Patna (2024–2028)*
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit-F7B731?style=for-the-badge&labelColor=0d1117)](https://www.ravimedical.in/)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit-F7B731?style=for-the-badge&labelColor=0d1117)](https://www.ravikeshari.me/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&labelColor=0d1117)](https://linkedin.com/in/ravi-kumar-keshari-a37828347)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-white?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/ravi-c029)
 [![Gmail](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&labelColor=0d1117)](mailto:ravi.keshari029@gmail.com)
